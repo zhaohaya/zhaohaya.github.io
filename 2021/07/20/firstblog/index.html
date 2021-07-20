@@ -15,7 +15,7 @@
 <meta property="og:description" content="Windows系统使用hexo+github搭建个人博客 工具准备1.npm node.js  http:&#x2F;&#x2F;nodejs.cn&#x2F;2.Git 代码托管平台： https:&#x2F;&#x2F;github.com&#x2F;  https:&#x2F;&#x2F;gitee.com&#x2F;3.markdown 文档编辑工具：Visual Studio Code 基本步骤1.安装hexo2.使用hexo命令创建网站项目目录3.使用hexo命令创建文档，">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2021-07-20T05:07:15.000Z">
-<meta property="article:modified_time" content="2021-07-20T05:55:29.200Z">
+<meta property="article:modified_time" content="2021-07-20T05:59:28.004Z">
 <meta property="article:author" content="zhaohaoyan">
 <meta name="twitter:card" content="summary">
   
@@ -100,9 +100,7 @@
 <h3 id="4-使用hexo命令进行网站的本地预览"><a href="#4-使用hexo命令进行网站的本地预览" class="headerlink" title="4.使用hexo命令进行网站的本地预览"></a>4.使用hexo命令进行网站的本地预览</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo sever</span><br><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
 
 <h3 id="5-创建github仓库，配置文件-cofig-yml，并将代码推送到仓库"><a href="#5-创建github仓库，配置文件-cofig-yml，并将代码推送到仓库" class="headerlink" title="5.创建github仓库，配置文件_cofig.yml，并将代码推送到仓库"></a>5.创建github仓库，配置文件_cofig.yml，并将代码推送到仓库</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: &#x27;git&#x27;</span><br><span class="line">  repo: https://github.com/[账号名]/[仓库名].github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
-<h3 id="先安装hexo插件，再将代码推送至仓库"><a href="#先安装hexo插件，再将代码推送至仓库" class="headerlink" title="先安装hexo插件，再将代码推送至仓库"></a>先安装hexo插件，再将代码推送至仓库</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g -d</span><br></pre></td></tr></table></figure>
+<h3 id="先安装hexo插件，再将代码推送至仓库"><a href="#先安装hexo插件，再将代码推送至仓库" class="headerlink" title="先安装hexo插件，再将代码推送至仓库"></a>先安装hexo插件，再将代码推送至仓库</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br><span class="line"></span><br><span class="line">hexo g -d</span><br></pre></td></tr></table></figure>
 <h3 id="6-使用域名远端访问"><a href="#6-使用域名远端访问" class="headerlink" title="6.使用域名远端访问"></a>6.使用域名远端访问</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://[仓库名].github.io/</span><br></pre></td></tr></table></figure>
 
 <p>参考:<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1bK4y1b7en?p=1">https://www.bilibili.com/video/BV1bK4y1b7en?p=1</a><br>     <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1at4y1D7rr">https://www.bilibili.com/video/BV1at4y1D7rr</a></p>
@@ -110,7 +108,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/07/20/firstblog/" data-id="ckrbn8dwl0000zcuga6dgdn98" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2021/07/20/firstblog/" data-id="ckrbndo130000rkug9dsv2ai7" class="article-share-link">Share</a>
       
       
     </footer>
